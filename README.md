@@ -12,8 +12,19 @@ A local-first RAG (Retrieval-Augmented Generation) platform that ingests corpora
 
 This platform lets investors ask natural-language questions about a company's annual report and receive answers grounded in the actual document — not in a general-purpose LLM's training data. It also automatically extracts structured financial KPIs (revenue, net income, risk factors, drivers, etc.) from each report.
 
-Everything runs locally. No external database servers or cloud infrastructure setups are required.
+The application runs locally, with Gemini and Hugging Face accessed through external APIs; no external database server or cloud infrastructure is required.
+## Key Features
 
+- Annual-report PDF upload and ingestion
+- RAG-based investor Q&A grounded in report context
+- Company/year metadata filtering
+- Automated financial KPI extraction
+- Risk-factor and growth-driver extraction
+- Multi-company knowledge base
+- Local Chroma vector persistence
+- Dashboard visualization
+- RAG evaluation suite
+- Unsupported-query and cross-company isolation checks
 ---
 
 ## Architecture
@@ -69,7 +80,7 @@ The local RAG pipeline and evaluation suite were executed against the test suite
 - **4/4** unsupported-query tests passed
 - **4/4** cross-company isolation tests passed
 - **1/1** qualitative test passed
-
+KPI matching uses a 5% numeric tolerance, while unsupported and cross-company tests evaluate the expected safety behavior.
 ---
 
 ## Installation & Setup
@@ -193,7 +204,12 @@ Response:
 
 ```json
 {
-  "answer": "Apple's total net sales for fiscal year 2024 were $391,035 million.",
+  "answer": [
+    {
+      "type": "text",
+      "text": "Apple's total net sales for fiscal year 2024 were $391,035 million."
+    }
+  ],
   "context_missing": false
 }
 ```
