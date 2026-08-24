@@ -4,12 +4,7 @@ A local-first RAG (Retrieval-Augmented Generation) platform that ingests corpora
 
 ---
 
-## Attribution
 
-This project was substantially refactored from:
-[https://github.com/Sandesh-hase/AI-Powered-Investor-Intelligence-Platform](https://github.com/Sandesh-hase/AI-Powered-Investor-Intelligence-Platform)
-
-The current implementation replaces the original Azure, OpenAI, and PostgreSQL architecture with a local-first stack using Google Gemini, Hugging Face embeddings, Chroma vector store, and JSON persistence.
 
 ---
 
