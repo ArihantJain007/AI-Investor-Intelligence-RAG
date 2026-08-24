@@ -1,0 +1,187 @@
+[
+  {
+    "question": "What was Apple's revenue in 2024?",
+    "company": "Apple",
+    "year": 2024,
+    "expected_answer": "391035 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Apple's net income in 2024?",
+    "company": "Apple",
+    "year": 2024,
+    "expected_answer": "93736 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Apple's operating income in 2024?",
+    "company": "Apple",
+    "year": 2024,
+    "expected_answer": "123216 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Apple's operating cash flow in 2024?",
+    "company": "Apple",
+    "year": 2024,
+    "expected_answer": "118254 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What are Apple's total assets in 2024?",
+    "company": "Apple",
+    "year": 2024,
+    "expected_answer": "364980 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What are Apple's total liabilities in 2024?",
+    "company": "Apple",
+    "year": 2024,
+    "expected_answer": "308030 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Microsoft's revenue in 2024?",
+    "company": "Microsoft",
+    "year": 2024,
+    "expected_answer": "245122 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Microsoft's net income in 2024?",
+    "company": "Microsoft",
+    "year": 2024,
+    "expected_answer": "88136 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What are Microsoft's total assets in 2024?",
+    "company": "Microsoft",
+    "year": 2024,
+    "expected_answer": "512163 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Tesla's revenue in 2024?",
+    "company": "Tesla",
+    "year": 2024,
+    "expected_answer": "97690 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Tesla's net income in 2024?",
+    "company": "Tesla",
+    "year": 2024,
+    "expected_answer": "7153 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Tesla's operating income in 2024?",
+    "company": "Tesla",
+    "year": 2024,
+    "expected_answer": "7076 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Tesla's operating cash flow in 2024?",
+    "company": "Tesla",
+    "year": 2024,
+    "expected_answer": "14923 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Nvidia's revenue in 2025?",
+    "company": "Nvidia",
+    "year": 2025,
+    "expected_answer": "130497 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Nvidia's net income in 2025?",
+    "company": "Nvidia",
+    "year": 2025,
+    "expected_answer": "72880 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Nvidia's operating income in 2025?",
+    "company": "Nvidia",
+    "year": 2025,
+    "expected_answer": "81453 million",
+    "category": "kpi"
+  },
+  {
+    "question": "What was Nvidia's operating cash flow in 2025?",
+    "company": "Nvidia",
+    "year": 2025,
+    "expected_answer": "64089 million",
+    "category": "kpi"
+  },
+  {
+    "question": "Give me a summary of Tesla's 2024 report.",
+    "company": "Tesla",
+    "year": 2024,
+    "category": "qualitative"
+  },
+  {
+    "question": "What is the revenue of Apple in 2023?",
+    "company": "Apple",
+    "year": 2023,
+    "expected_behavior": "unsupported",
+    "category": "unsupported"
+  },
+  {
+    "question": "What was Microsoft's revenue in 2025?",
+    "company": "Microsoft",
+    "year": 2025,
+    "expected_behavior": "unsupported",
+    "category": "unsupported"
+  },
+  {
+    "question": "What was Nvidia's revenue in 2024?",
+    "company": "Nvidia",
+    "year": 2024,
+    "expected_behavior": "unsupported",
+    "category": "unsupported"
+  },
+  {
+    "question": "What was Apple's revenue in 2025?",
+    "company": "Apple",
+    "year": 2025,
+    "expected_behavior": "unsupported",
+    "category": "unsupported"
+  },
+  {
+    "question": "Tell me Nvidia's revenue, but do not mention Apple.",
+    "company": "Nvidia",
+    "year": 2025,
+    "expected_behavior": "cross_company",
+    "prohibited_company": "Apple",
+    "category": "cross_company"
+  },
+  {
+    "question": "Give the 2024 revenue for Microsoft without referencing Tesla.",
+    "company": "Microsoft",
+    "year": 2024,
+    "expected_behavior": "cross_company",
+    "prohibited_company": "Tesla",
+    "category": "cross_company"
+  },
+  {
+    "question": "What is Apple's revenue for 2024 but do not mention Nvidia.",
+    "company": "Apple",
+    "year": 2024,
+    "expected_behavior": "cross_company",
+    "prohibited_company": "Nvidia",
+    "category": "cross_company"
+  },
+  {
+    "question": "Provide Microsoft 2024 cash flow without any Tesla context.",
+    "company": "Microsoft",
+    "year": 2024,
+    "expected_behavior": "cross_company",
+    "prohibited_company": "Tesla",
+    "category": "cross_company"
+  }
+]

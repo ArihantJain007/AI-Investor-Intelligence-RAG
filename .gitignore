@@ -1,0 +1,42 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/chroma/
+data/raw_pdfs/*.pdf
+data/markdown/
+
+# Python
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.python-version
+venv/
+ENV/
+env/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# macOS & Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs & DBs
+*.log
+*.sqlite3
+*.db
+
+# Temporary & Sensitive
+*.tmp
+*.swp
+*~
+secrets.json
+credentials.json
+
+data/financial_metrics.json
+evaluation/results.json
